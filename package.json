@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Convert HTML to PDF thru a lambda function using phantomjs and rasterize.",
   "main": "handler.js",
-  "scripts": {
-   
-  },
+  "scripts": {},
   "keywords": [
     "serverless",
     "pdf"
