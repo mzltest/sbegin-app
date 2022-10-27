@@ -4,7 +4,7 @@
   "description": "Convert HTML to PDF thru a lambda function using phantomjs and rasterize.",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   
   },
   "keywords": [
     "serverless",
