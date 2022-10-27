@@ -28,7 +28,7 @@
           var url = $('input#url').val();
           $.ajax({
             method: 'POST',
-            url: 'https://xe6ofd5xkc.execute-api.us-west-2.amazonaws.com/stage/print',
+            url: '/print',
             contentType: 'application/json',
             data: JSON.stringify({ url: url }),
             success: function (res) {
