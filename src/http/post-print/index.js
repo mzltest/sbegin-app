@@ -7,8 +7,8 @@ const execFile = require('child_process').execFile;
 module.exports.print = (event, context, callback) => {
   console.log(event);
   const body = JSON.parse(event.body);
-  const phantomjs = path.resolve('../bin/phantomjs-linux');
-  const rasterize = path.resolve('../lib/rasterize.js');
+  const phantomjs = path.resolve('../../../bin/phantomjs-linux');
+  const rasterize = path.resolve('../../../lib/rasterize.js');
   const outputPDF = '/tmp/output.pdf';
   const url = body.url;
 
