@@ -6,7 +6,7 @@ begin-app
 @http
 /print
   method post
-  src /
+  src m
 @tables
 data
   scopeID *String
