@@ -4,9 +4,8 @@ begin-app
 @static
 
 @http
-/print
-  method post
-  src m
+post /print
+
 @tables
 data
   scopeID *String
