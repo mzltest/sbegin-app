@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const execFile = require('child_process').execFile;
 
-module.exports.print = (event, context, callback) => {
+module.exports.handler = (event, context, callback) => {
   console.log(event);
   const body = JSON.parse(event.body);
   const phantomjs = path.resolve('../../../bin/phantomjs-linux');
